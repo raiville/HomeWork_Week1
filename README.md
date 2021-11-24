@@ -17,6 +17,6 @@ Or
 Using the git CLI pasted below
 gh repo clone raiville/HomeWork_Week1 
 
-[Repaired Website](/images/capture.JPG)
+![Repaired Website](/images/Capture.JPG)
 
 
