@@ -18,9 +18,21 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Removed header to organise h1, h2, h3 */
+h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+/* Changed indivdual id's to just style whole h2 as only one H2 is used */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} 
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .header h1 .seo {
@@ -82,10 +94,6 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-} 
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -101,3 +109,47 @@ p {
     max-height: 200px;
 }
 
+/* styling for benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.vector img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* styling for footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
